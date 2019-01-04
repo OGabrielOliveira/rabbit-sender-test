@@ -1,0 +1,17 @@
+{
+  "name": "windows/rabbit-sender",
+  "authors": [
+    {
+      "name": "Gabriel Santos",
+      "email": "gabriel@webart.com.br"
+    }
+  ],
+  "require":  {
+    "php-amqplib/php-amqplib":"*"
+  },
+  "autoload":{
+    "psr-4":{
+      "Wapschool\\":"src/wapschool"
+    }
+  }
+}
